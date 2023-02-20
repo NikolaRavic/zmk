@@ -10,7 +10,7 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 / {
-    behavior: {
+    behaviors: {
         gqt: global-quick-tap {
             compatible = "zmk,behavior-hold-tap";
             label = "GLOBAL_QUICK_TAP";
