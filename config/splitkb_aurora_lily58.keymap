@@ -10,6 +10,14 @@
 #include <dt-bindings/zmk/ext_power.h>
 
 / {
+     combos {
+            compatible = "zmk,combos";
+            combo_tab {
+                timeout-ms = <20>;
+                key-positions = <15 16>;
+                bindings = <&kp TAB>;
+            };
+    };
     behaviors {
         gqt: global-quick-tap {
             compatible = "zmk,behavior-hold-tap";
