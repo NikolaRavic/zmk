@@ -25,6 +25,7 @@
                 bindings = <&kp TAB>;
             };
     };
+
     behaviors {
         gqt: global-quick-tap {
             compatible = "zmk,behavior-hold-tap";
@@ -35,6 +36,10 @@
             quick-tap-ms = <60>;
             bindings = <&kp>, <&kp>;
         };
+    };
+
+
+    behaviors {
          bspc_del: backspace_delete {
             compatible = "zmk,behavior-mod-morph";
             label = "BACKSPACE_DELETE";
@@ -44,6 +49,7 @@
             keep-mods = <(MOD_RSFT)>;
         };
     };
+
 
 	keymap {
 		compatible = "zmk,keymap";
