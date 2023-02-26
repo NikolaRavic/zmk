@@ -32,18 +32,11 @@
             compatible = "zmk,behavior-hold-tap";
             label = "GLOBAL_QUICK_TAP";
             #binding-cells = <2>;
+            quick-tap-ms = <70>;
             flavor = "tap-preferred";
             tapping-term-ms = <230>;
             quick-tap-ms = <60>;
             bindings = <&kp>, <&kp>;
-        };
-         bspc_del: backspace_delete {
-            compatible = "zmk,behavior-mod-morph";
-            label = "BACKSPACE_DELETE";
-            #binding-cells = <0>;
-            bindings = <&kp BSPC>, <&kp DEL>;
-            mods = <(MOD_LSFT|MOD_RSFT)>;
-            keep-mods = <(MOD_RSFT)>;
         };
     };
 
