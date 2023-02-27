@@ -5,7 +5,7 @@ manifest:
     - name: petejohanson
       url-base: https://github.com/petejohanson
     - name: NikolaRavic
-      url-base: https://github.com/NikolaRavic/zmk-firmware
+      url-base: https://github.com/NikolaRavic
   projects:
     # Splitkb + encoder fix from Stephen's fork
     # Ref: https://github.com/zmkfirmware/zmk/pull/728
