@@ -1,10 +1,10 @@
 manifest:
   remotes:
-    - name: stephen/split-encoder
-      url-base: https://github.com/stephen/zmk
+    - name: zmk
+      url-base: https://github.com/stephen
   projects:
-    - name: stephen/split-encoder
-      remote: zmkfirmware
+    - name: zmk
+      remote: stephen/split-encoder
       revision: stephen/split-encoder
       import: app/west.yml
   self:
