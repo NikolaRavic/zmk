@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk-firmware
       remote: zmkfirmware
-      revision: main
+      revision: encoders-peripheral
       import: app/west.yml
   self:
     path: config
