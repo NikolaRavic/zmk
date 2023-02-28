@@ -1,17 +1,11 @@
 manifest:
   remotes:
     - name: zmkfirmware
-      url-base: https://github.com/zmkfirmware
-    - name: petejohanson
-      url-base: https://github.com/petejohanson
-    - name: NikolaRavic
       url-base: https://github.com/NikolaRavic
   projects:
-    # Splitkb + encoder fix from Stephen's fork
-    # Ref: https://github.com/zmkfirmware/zmk/pull/728
     - name: zmk-firmware
       remote: NikolaRavic
-      revision: splitkb-aurora-lily58-with-double-encoders-infused-kim
+      revision: main
       import: app/west.yml
   self:
     path: config
