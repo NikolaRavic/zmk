@@ -4,7 +4,7 @@ manifest:
       url-base: https://github.com/NikolaRavic
   projects:
     - name: zmk-firmware
-      remote: NikolaRavic
+      remote: zmkfirmware
       revision: main
       import: app/west.yml
   self:
